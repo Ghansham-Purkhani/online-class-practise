@@ -37,3 +37,16 @@ if(city=="karachi"){
 console.log("barish ho rahe hai"); 
 }
 
+
+
+let userAcount = prompt("Enter user Acount number")
+console.log(userAcount);
+let userAcount01 = +prompt("Enter user Acount number")
+console.log(userAcount01);
+
+
+
+
+
+
+
