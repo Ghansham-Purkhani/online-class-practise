@@ -40,7 +40,10 @@ console.log(arrayNumbers[1]); // find konse index pe kia save hai
 console.log(arrayNumbers[0]);
 
 // Some  bsics array methood
-
+// 5. length — Get number of items
+console.log(arrayNumbers.length); // 7
+// 11. indexOf() — Find index of an item
+console.log(arrayNumbers.indexOf("Ghansham")); // 1
 //1. push() — Add item to the end of the array
 arrayNumbers.push("somro");
 console.log(arrayNumbers);
@@ -53,6 +56,33 @@ console.log(arrayNumbers);
 //4. shift() — remove item to the start
 arrayNumbers.unshift("somro bhai");
 console.log(arrayNumbers);
+// 12. join() — Convert array to string
+console.log(arrayNumbers.join("apple,banana")); // "apple, banana"
+// 11. indexOf() — Find index of an item
+console.log(arrayNumbers.indexOf("banana")); // 1
+// 10. includes() — Check if array contains a value
+console.log(arrayNumbers.includes("banana")); // true
+// 9. find() — Return the first match
+let firstBig = nums.find(num => num > 10);
+console.log(firstBig); // 15
+// 8. filter() — Return elements that match a condition
+let nums = [5, 10, 15, 20];
+let greaterThan10 = nums.filter(num => num > 10);
+console.log(greaterThan10); // [15, 20]
+// 7. map() — Create a new array by transforming each element
+let numbers = [1, 2, 3];
+let doubled = numbers.map(num => num * 2);
+console.log(doubled); // [2, 4, 6]
+// 6. forEach() — Loop through each item
+fruits.forEach(function(item, index) {
+  console.log(index + ": " + item);
+});
+// 13. slice(start, end) — Copy part of the array
+let sliced = arrayNumbers.slice(0, 1);
+console.log(sliced); // ["apple"]
+// 14. splice(start, deleteCount, item1, item2, ...) — Add/remove items
+fruits.splice(1, 1, "grape");
+console.log(arrayNumbers); // ["apple", "grape"]
 
 /*💡 Question: array base
 Write a program that finds the largest number in an array of integers.
