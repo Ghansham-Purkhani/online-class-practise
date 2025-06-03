@@ -123,3 +123,11 @@ min = arr[i];
 }
  }
 console.log(min);
+  var arr = [1,6,3,8];
+ var min = arr[0];
+ for(var i =0;i<=arr.length;i++){
+if (min > arr[i]){
+min = arr[i];
+}
+ }
+console.log(min);
