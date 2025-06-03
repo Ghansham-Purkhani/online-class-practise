@@ -103,4 +103,23 @@ for (var i = 1; i < largestNumbers.length; i++) {
 }
 console.log("Largest number is:", largest);
 
-
+ // palingdram  revesr use 
+ var names = prompt("enter words");
+ var reverse = "";
+ for( var i = names.length-1;i>=0;i--){
+  reverse+= names[i];
+  if (names===reverse) {
+    console.log("palindram");
+  }else{
+    console.log("not palingdram");
+  }
+ }
+ // min ya max find karo
+ var arr = [1,6,3,8];
+ var min = arr[0];
+ for(var i =0;i<=arr.length;i++){
+if (min < arr[i]){
+min = arr[i];
+}
+ }
+console.log(min);
