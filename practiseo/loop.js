@@ -18,14 +18,16 @@ console.log("Print even numbers between 1 and 10.");
 for (var i = 0; i <=10; i++) {
    if (i%2===0) {
     console.log("even number b/w 1 to 10 => ", i);
-   } 
+   } else {
+    console.log("odd number",i);
+   }
     
 }
 // 3=>Print the multiplication table of a number (e.g., 7).
 console.log("3=>Print the multiplication table of a number (e.g., 7).");
 for(var i = 0; i<=10;i++){
 var numbers = 7;
-console.log( i,"*",numbers,"=", i*numbers);
+console.log( i+"*"+numbers,"=", i*numbers);
 }
 //4=>Calculate the sum of numbers from 1 to n.
 console.log("4=>Calculate the sum of numbers from 1 to n.");
@@ -104,7 +106,7 @@ for (var i = 1; i < largestNumbers.length; i++) {
 console.log("Largest number is:", largest);
 
  // palingdram  revesr use 
- var names = prompt("enter words");
+ var names = prompt("enter words","wow");
  var reverse = "";
  for( var i = names.length-1;i>=0;i--){
   reverse+= names[i];
@@ -123,6 +125,7 @@ min = arr[i];
 }
  }
 console.log(min);
+
   var arr = [1,6,3,8];
  var min = arr[0];
  for(var i =0;i<=arr.length;i++){
@@ -131,3 +134,15 @@ min = arr[i];
 }
  }
 console.log(min);
+// series number missing find  
+var ari = [11,12,14,15,16,17,20];
+for (let index = 0; index < ari.length; index++) {
+  var diff = ari[index+1]-ari[index];
+  if (diff > 1) {
+    for (var indexj = 1; indexj < diff; indexj++) {
+   console.log(ari[index]+indexj);
+    }
+   
+  }
+
+}
