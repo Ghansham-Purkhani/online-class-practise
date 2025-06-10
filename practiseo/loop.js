@@ -135,14 +135,12 @@ min = arr[i];
  }
 console.log(min);
 // series number missing find  
-var ari = [11,12,14,15,16,17,20];
+var ari = [11,12,14,16,17,20];
 for (let index = 0; index < ari.length; index++) {
   var diff = ari[index+1]-ari[index];
   if (diff > 1) {
     for (var indexj = 1; indexj < diff; indexj++) {
    console.log(ari[index]+indexj);
     }
-   
   }
-
 }
