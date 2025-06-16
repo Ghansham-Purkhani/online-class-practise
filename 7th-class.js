@@ -33,7 +33,7 @@ for (let i = 0; i < length / 2; i++) {
     }
 } 
 if (isPalindrome) {
-    console.log("It's a palindrome!");
+    console.log("It's a palindrome ok!");
 } else {
     console.log("It's not a palindrome.");
 }
