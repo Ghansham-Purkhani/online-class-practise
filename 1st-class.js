@@ -17,7 +17,7 @@ variable name gived thst have mesningfull acording field, use camelCase => (honK
 */
                          // ALERT
 
-alert("hello ji mr");    // run succesfully
+alert("hello ji grurya");    // run succesfully
 alert(hello)  // show miatake,js thing its variable b/c we can not use ("") symbol
 window.alert("chotya ho chotya abe be use karega us ko"); // ua ka matlb hai window men jo alert hai wo chalao.
 
