@@ -1,5 +1,4 @@
-var newDate = new Date();
-var days = ["Sun","Mon","Tus","Wed","Thur","Fri","Sat"];
+/*var days = ["Sun","Mon","Tus","Wed","Thur","Fri","Sat"];
 console.log(days[newDate.getDay()]);
 
 // SPECIFING DATE AND TIME 
@@ -25,4 +24,16 @@ dDiff = Math.floor(dDiff);
 var msDiff = new Date("June 30, 2035").getTime() - new Date().getTime();
 var daysTillDoom = Math.floor(msDiff / (1000 * 60 * 60 * 24));
 var d = new Date("July 21, 1983 13:25:00");
-console.log(d);
+console.log(d); */
+var newDate = new Date(); // MilliSecond 
+console.log(newDate.getTime());  
+var newTime = newDate/(1000);  // Second 
+console.log(newTime); 
+var newTime = newDate/(1000*60);  // Mintus
+console.log(newTime);
+var newTime = newDate/(1000*60*60);  // clock
+console.log(newTime);
+var newTime = newDate/(1000*60*60*24);  // day
+console.log(newTime);
+
+
