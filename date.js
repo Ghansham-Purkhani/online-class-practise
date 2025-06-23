@@ -40,4 +40,14 @@ console.log(d); */
 
 var newDateMeth = new Date(1750692585898);
 console.log(newDateMeth.toLocaleString());
+console.log(newDateMeth.toLocaleDateString());
+console.log(newDateMeth.getFullYear().toLocaleString());
+console.log(newDateMeth.getDate().toLocaleString());
+console.log(newDateMeth.getTimezoneOffset().toLocaleString());
+
+
+
+
+
+
 
