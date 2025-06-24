@@ -38,14 +38,16 @@ console.log(d); */
 // var newTime = newDate/(1000*60*60*24*365);  // Year
 // console.log("Year",newTime); 
 
-var newDateMeth = new Date(1750692585898);
-console.log(newDateMeth.toLocaleString());
-console.log(newDateMeth.toLocaleDateString());
-console.log(newDateMeth.getFullYear().toLocaleString());
-console.log(newDateMeth.getDate().toLocaleString());
-console.log(newDateMeth.getTimezoneOffset().toLocaleString());
+// var newDateMeth = new Date(1750692585898);
+// console.log(newDateMeth.toLocaleString());
+// console.log(newDateMeth.toLocaleDateString());
+// console.log(newDateMeth.getFullYear().toLocaleString());
+// console.log(newDateMeth.getDate().toLocaleString());
+// console.log(newDateMeth.getTimezoneOffset().toLocaleString());
 
-
+//  gusses Question 
+let dateMethood = new Date(0);
+console.log (dateMethood.toString()) // think what dates and time print 
 
 
 
