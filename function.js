@@ -73,4 +73,15 @@ function conditionBased(number) {
 };
 }
 console.log(conditionBased(10));
- 
+
+ //  Function  Expression in JS ..OR.. Function Defination, not used before delearation 
+const sayHii = function() {
+  console.log("hii")
+}
+sayHi() 
+
+ //  Function Decleartion in JS .. used before delearation 
+ function chora(params) {
+  return params;
+ } 
+ chora();
