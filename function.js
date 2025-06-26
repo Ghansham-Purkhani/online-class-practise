@@ -41,3 +41,36 @@ function subTwoNumber(c,d){
 
  const  ResultOfPressCulb = pressCulb('SadiquePressCulb','Mithi','Tharparker');
  console.log(ResultOfPressCulb);
+
+
+ function greatUser(Name){
+return `Hello ${name}!`;
+ }
+  const userName = greatUser('Ghansham');
+  console.log(userName);
+
+   function createProfile(nameP,ageP){
+return {
+    Name: nameP,
+    Age: ageP
+}
+
+   }
+   const profile = createProfile('Ghansham',24);
+   console.log(profile);
+
+
+   function firstAndLast(arr) {
+  return [arr[0], arr[arr.length - 1]];
+}
+console.log(firstAndLast([10, 20, 30]));
+
+function conditionBased(number) {
+    if (number % 2 === 0) {
+  return "Even";
+} else {
+  return "Odd";
+};
+}
+console.log(conditionBased(10));
+ 
