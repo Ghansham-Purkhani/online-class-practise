@@ -28,3 +28,16 @@ function subTwoNumber(c,d){
 }
  const resultofSub = subTwoNumber(subTwoNumber(12,13),subTwoNumber(10,5));
  console.log(resultofSub);
+
+ //  Execution methood in JS .....
+
+//  debugger
+ const number = 12;
+ const numberVar = 16;
+ function pressCulb(PressCulb,City,Dist) {
+    return PressCulb!=City!=Dist;
+ }
+//  pressCulb(SadiquePressCulb,Mithi,Tharparker);
+
+ const  ResultOfPressCulb = pressCulb('SadiquePressCulb','Mithi','Tharparker');
+ console.log(ResultOfPressCulb);
