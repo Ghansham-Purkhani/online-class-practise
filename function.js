@@ -81,7 +81,7 @@ const sayHii = function() {
 sayHi() 
 
  //  Function Decleartion in JS .. used before delearation 
- function chora(params) {
-  return params;
+ function chora(beforeDec) {
+  return beforeDec;
  } 
  chora();
