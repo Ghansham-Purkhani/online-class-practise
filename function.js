@@ -78,10 +78,33 @@ console.log(conditionBased(10));
 const sayHii = function() {
   console.log("hii")
 }
-sayHi() 
+// sayHi() 
 
  //  Function Decleartion in JS .. used before delearation 
  function chora(beforeDec) {
   return beforeDec;
  } 
  chora();
+ function dade(bc) {
+  return bc;
+ }
+ console.dir(dade); // its data type is basically obj but in js show function datatype 
+ const cd =  dade([1,2,3,]);
+  console.log(cd);
+
+  //  high order function
+
+function a(c) {
+  console.dir(c);
+  c();
+}
+
+// function sayHello() {
+//   console.log(`hiiiiii`);
+// }
+
+// a(sayHello); // ✅ Don't use parentheses here
+
+a(function () {
+  console.log(`hiiiiii`);}); // ease be call kar sakte hai use callback function kahte hai
+
