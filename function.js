@@ -110,7 +110,7 @@ a(function () {
 
   // return and closure
   function outer() {
-    debugger
+    // debugger
     function parent() {
     const num2 = 5;
     const num = 2;
@@ -124,4 +124,18 @@ a(function () {
 
   const add1 =outer();
   console.dir(add1);
+
+  //  clouser
+  function createUser(name) {
+// debugger
+  return function() {
+    console.log("Hello, " + name + "!");
+  };
+
+
+}
+const user2 = createUser("Ghansham");
+const user1 = createUser("Ali");
+user1(); user2(); 
+
 
