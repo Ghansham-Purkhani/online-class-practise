@@ -108,3 +108,20 @@ function a(c) {
 a(function () {
   console.log(`hiiiiii`);}); // ease be call kar sakte hai use callback function kahte hai
 
+  // return and closure
+  function outer() {
+    debugger
+    function parent() {
+    const num2 = 5;
+    const num = 2;
+    function add() {
+        console.log(num+num2); 
+    }
+    return add();
+      } 
+    return parent();
+  }
+
+  const add1 =outer();
+  console.dir(add1);
+
