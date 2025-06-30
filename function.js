@@ -137,5 +137,31 @@ a(function () {
 const user2 = createUser("Ghansham");
 const user1 = createUser("Ali");
 user1(); user2(); 
+//  arrow function => syntax
+const add = (a, b) => a + b;
+//  this both same way diffrent
+function add(a, b) {
+  return a + b;
+}
+// One parameter: 
+const greet = name => `Hello, ${name}`;
+console.log(greet("Ali")); // Hello, Ali
+// No parameter:
+const sayHi = () => console.log("Hi!");
+sayHi(); // Hi!
+// this: new example:
+function Person() {
+  this.age = 0;
+
+  setInterval(() => {
+    this.age++; // Arrow function uses the 'this' from Person
+    console.log(this.age);
+  }, 1000);
+}
+new Person();
+
+const chore = (num) => num + num 
+
+
 
 
