@@ -1,10 +1,11 @@
 const students = [`Ali`,`Hussain`,`Mola Ali`,`ya-Hussain`];
 //  array methood map its give return value in array 
-//  const studentName = students.map((student,index)=>{
-//     console.log(index + 1,student);
-// return student.toLocaleUpperCase();
-// })
-// console.log(studentName);
+ const studentName1 = students.map((student,index)=>{
+    console.log(index + 1,student);
+return student.toLocaleUpperCase();
+})
+console.log(studentName1);
+console.log('*****************************************');
 
 //  array methood filter its give return value in array ,give on condition 
 //  or anything 
