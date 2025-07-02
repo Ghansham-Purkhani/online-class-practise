@@ -1,6 +1,6 @@
 //  arrow function => syntax
 // const add = (a, b) => a + b;
-//  this both same way diffrent
+//  this both same but way diffrent
 // function add(a, b) {
 //   return a + b;
 // }
