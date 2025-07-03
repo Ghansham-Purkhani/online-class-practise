@@ -12,6 +12,7 @@ console.log('*****************************************');
 
  const studentName = students.filter((student,index)=>{
     console.log(index + 1,student);
-return student.toLocaleLowerCase().includes(`s`);
+// return student.toLocaleLowerCase().includes(`s`); // commit for necha console run ho sake 
+return student.length >=4
 })
 console.log(studentName);
