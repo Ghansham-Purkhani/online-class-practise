@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BOM Practice</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #e0e0e0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 50px;
+    }
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      background-color: #03dac5;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>BOM Practice Page</h1>
+  <p>Click the buttons to explore BOM features</p>
+
+  <button onclick="showAlert()">Show Alert</button>
+  <button onclick="askName()">Prompt Name</button>
+  <button onclick="showBrowserInfo()">Browser Info</button>
+  <button onclick="redirectGoogle()">Redirect to Google</button>
+  <button onclick="showScreenSize()">Screen Size</button>
+  <button onclick="goBack()">Go Back</button>
+
+  <script>
+    function showAlert() {
+      alert("This is an alert from BOM!");
+    }
+
+    function askName() {
+      const name = prompt("What is your name?");
+      if (name) {
+        alert(`Hello, ${name}!`);
+      }
+    }
+
+    function showBrowserInfo() {
+      alert(`Browser Info:\n${navigator.userAgent}`);
+    }
+
+    function redirectGoogle() {
+      const confirmRedirect = confirm("Do you want to go to Google?");
+      if (confirmRedirect) {
+        window.location.href = "https://www.google.com";
+      }
+    }
+
+    function showScreenSize() {
+      alert(`Screen Width: ${screen.width}px\nScreen Height: ${screen.height}px`);
+    }
+
+    function goBack() {
+      history.back();
+    }
+  </script>
+
+</body>
+</html>

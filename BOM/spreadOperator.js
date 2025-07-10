@@ -1,4 +1,5 @@
 //  spread operator = use for join array and obj
+
 // join array
 let Num1 = [1, 2, 3, 4, 5]
 let Num2 = [6, 7, 8, 9, 10]
